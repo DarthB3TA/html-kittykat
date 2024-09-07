@@ -1,0 +1,56 @@
+/* Background Animation */
+.gradient-background {
+    background: linear-gradient(43deg,#00ffbf,#5d00d6,#b92eab,#ffd000);
+    background-size: 240% 240%;
+    animation: gradient-animation 8s ease infinite;
+    min-height: 100vh;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .gradient-background1 {
+    background: linear-gradient(43deg,#00ffbf,#5d00d6,#b92eab,#ffd000);
+    background-size: 240% 240%;
+    animation: gradient-animation 8s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  h1 {
+    font-family: "Pacifico", cursive;
+    font-style: normal;
+  }
+
+  .modal-sheet {
+    top: 23%;
+  }
+  
+  .kk-header {
+    font-family: "Pacifico", cursive;
+    font-style: normal;
+    color: aliceblue;
+  }
+  
+  .cat-thumbnail {
+    border-radius: 3px;
+  }
